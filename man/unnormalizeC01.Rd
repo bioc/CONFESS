@@ -19,4 +19,3 @@ It calculates the unnormalized signal of a normalized image. The normalization h
   as x[i,j]/bits where x[i,j] is the i,j element of the signal matrix x and bits is the value of the bits.
 }
 \keyword{internal}
-

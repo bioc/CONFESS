@@ -18,4 +18,3 @@ A list of appropriately sorted data
 A helper that sorts the data of a list variable.
 }
 \keyword{internal}
-

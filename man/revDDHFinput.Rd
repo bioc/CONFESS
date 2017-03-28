@@ -16,4 +16,3 @@ The reverted data
 It reverts the DDHF sorted fluorescence signals into the original sorting.
 }
 \keyword{internal}
-

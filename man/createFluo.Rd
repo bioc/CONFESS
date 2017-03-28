@@ -42,4 +42,3 @@ The data format creator function for the signal normalization step.
 step1 <- createFluo(from.file=system.file("extdata", "Results_of_image_analysis.txt",
 package = "CONFESS"),separator="_")
 }
-

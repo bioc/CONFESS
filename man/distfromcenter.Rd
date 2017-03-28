@@ -18,4 +18,3 @@ The Eucledian distance between the two locations
 It calculates the Eucledian distance between two 2-dimensional locations.
 }
 \keyword{internal}
-

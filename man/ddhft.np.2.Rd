@@ -17,4 +17,3 @@ The DDHF transformed data
 The original DDHF function (Motakis et al, 2006).
 }
 \keyword{internal}
-

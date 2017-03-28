@@ -22,4 +22,3 @@ The sorted cluster indices (path)
 The main function for automatic path estimation .
 }
 \keyword{internal}
-

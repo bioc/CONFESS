@@ -22,4 +22,3 @@ The area identified by BF image modelling
 It estimates the spot or capture site location by BF image modelling.
 }
 \keyword{internal}
-

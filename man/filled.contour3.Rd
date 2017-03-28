@@ -27,4 +27,3 @@ It generates a contour plot of a channel specific spot. It is a modification by 
   We have added some extra parameters to adapt the function to our application.
 }
 \keyword{internal}
-

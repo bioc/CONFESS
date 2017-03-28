@@ -44,4 +44,3 @@ A list of location estimates
 It processes the case of 0 spots in both channels. It performs BF image modelling.
 }
 \keyword{internal}
-

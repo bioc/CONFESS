@@ -44,4 +44,3 @@ A helper to re-estimate the spot location or find the capture site location
   (BF image modelling).
 }
 \keyword{internal}
-

@@ -47,4 +47,3 @@ It processes the case of 1 spot in the red channel and >1 spots in the green cha
   BF image modelling is not necessarily performed. It reports possible contamination.
 }
 \keyword{internal}
-

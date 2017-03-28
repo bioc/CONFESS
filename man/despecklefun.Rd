@@ -21,4 +21,3 @@ A despeckled image
 It despeckles the BF image data matrix (similar to the despeckle function of ImageJ)
 }
 \keyword{internal}
-

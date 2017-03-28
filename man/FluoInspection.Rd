@@ -21,4 +21,3 @@ A list with the adjusted fluorescence signals and the centroids
 It generates the initial clusters, their centroids and plots the results.
 }
 \keyword{internal}
-

@@ -24,4 +24,3 @@ The locations of the straight lines on the chip
 It estimates the chip characterisrics for BF image modelling
 }
 \keyword{internal}
-

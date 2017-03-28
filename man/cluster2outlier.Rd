@@ -27,4 +27,3 @@ step3.withoutliers <- cluster2outlier(step3,out.cluster=1)
 step3.withoutliers <- FluoSelection_byRun(step3.withoutliers,
                                  other=which(step3.withoutliers$GAPgroups[,1]!=-999))
 }
-

@@ -46,4 +46,3 @@ It reads the generated groups of Fluo_inspection() and estimates the path cell p
 \examples{
 step3.1 <- pathEstimator(step3,path.start=6,path.type=c("circular","clockwise"))
 }
-

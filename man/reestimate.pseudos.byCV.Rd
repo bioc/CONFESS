@@ -28,4 +28,3 @@ It summarizes the CV-estimated pseudotimes into a single value. There are three 
 It estimates a new pseudotime for each sample based on its cross-validation estimates.
 }
 \keyword{internal}
-

@@ -20,4 +20,3 @@ A matrix of sorted centroids
 A helper funcion to sort the centroids .
 }
 \keyword{internal}
-

@@ -31,4 +31,3 @@ The density plots of the fluorescence data
 It generates the density plots of the uncorrected and corrected cell fluorescence signals.
 }
 \keyword{internal}
-

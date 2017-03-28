@@ -119,4 +119,3 @@ steps2_4 <- Fluo_CV_prep(data=step1,init.path = "bottom/left",path.type=c("circu
 single.batch.analysis = 5,flex.reps=5,altFUN="kmeans",VSmethod="DDHFmv",CPmethod="ECP",
 B.kmeans=5,CPpvalue=0.01,savePlot="OFF")
 }
-

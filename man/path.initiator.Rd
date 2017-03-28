@@ -19,4 +19,3 @@ A starting point for the progression path
 It finds the cluster that initiates the progression path.
 }
 \keyword{internal}
-

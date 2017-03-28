@@ -24,4 +24,3 @@ P-values and test statistics for both channels
 It tests whether the foreground signal is statistically higher than the background.
 }
 \keyword{internal}
-

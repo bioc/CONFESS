@@ -41,4 +41,3 @@ It produces the final output table of CONFESS. It includes the Sample IDs, the R
 \examples{
 step5<-Fluo_ordering(data=step4,savePlot="OFF")
 }
-

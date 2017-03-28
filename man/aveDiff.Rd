@@ -22,4 +22,3 @@ It estimates the average difference between the original and the CV estimated ps
   maximum pseudotime is 300) in a circular path, two pseudotimes 1 and 300 differ only by 1 and not by 299.
 }
 \keyword{internal}
-

@@ -24,4 +24,3 @@ The background corrected data
 It performs the background correction of cell fluorescence signals.
 }
 \keyword{internal}
-

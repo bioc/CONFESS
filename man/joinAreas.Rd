@@ -28,4 +28,3 @@ The coordinates of the spot area and its length in pixels.
 It estimates the spot area by joining the red and green bright spot location estimates.
 }
 \keyword{internal}
-

@@ -74,4 +74,3 @@ files<-readFiles(iDirectory=NULL,
 #this example is run using out.method="manual" (not interactive) 
 clu <- defineLocClusters(LocData=estimates,out.method="manual",savePlot="screen")
 }
-

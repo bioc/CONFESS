@@ -23,4 +23,3 @@ The new output of Fluo_inspection() with the original data where @GAPgroups has 
 Adds the predicted k-mean clusters to the existing set (CV-estimated).
 }
 \keyword{internal}
-

@@ -45,4 +45,3 @@ step1 <- createFluo(from.file=system.file("extdata", "Results_of_image_analysis.
 package = "CONFESS"),separator="_")
 step2.1 <- getFluo(data=step2)
 }
-

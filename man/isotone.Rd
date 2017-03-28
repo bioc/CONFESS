@@ -18,4 +18,3 @@ The isotone regression model estimates
 The original function to perform isotone regression (Motakis et al 2006).
 }
 \keyword{internal}
-

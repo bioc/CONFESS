@@ -20,4 +20,3 @@ A list with the fluorescence signals, mixture components, flexmix model estimate
 It estimates the contrasts comparisons across runs and runs*component in each channel.
 }
 \keyword{internal}
-

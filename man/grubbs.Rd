@@ -16,4 +16,3 @@ All potential outliers (indices)
 It performs the grubbs test for outliers.
 }
 \keyword{internal}
-

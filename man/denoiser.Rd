@@ -20,4 +20,3 @@ The denoised data and the model residuals
 An internal function to run transformed data denoising that estimates the model residuals.
 }
 \keyword{internal}
-

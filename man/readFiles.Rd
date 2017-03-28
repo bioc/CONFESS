@@ -73,4 +73,3 @@ files<-readFiles(iDirectory=NULL,
 #                 separator = "_",image.type = c("BF","Green","Red"),
 #                 bits=2^16)                  
 }
-

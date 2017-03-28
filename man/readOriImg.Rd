@@ -29,4 +29,3 @@ A list of BF image estimates
 It reads and processes the original BF image
 }
 \keyword{internal}
-

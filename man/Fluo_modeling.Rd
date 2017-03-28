@@ -62,4 +62,3 @@ It takes the initial groups and the path progression and estimates the pseudotim
 step4<-Fluo_modeling(data=step3.1,init.path=step3.1$Path,VSmethod="DDHFmv",
                      CPmethod="ECP",CPpvalue=0.01)
 }
-

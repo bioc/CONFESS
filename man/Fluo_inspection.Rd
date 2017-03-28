@@ -53,4 +53,3 @@ It generates the initial cell clusters as defined by their corrected fluorescenc
 \examples{
 step3 <- Fluo_inspection(data=step2.1,altFUN="kmeans",B.kmeans=5,savePlot="OFF")
 }
-

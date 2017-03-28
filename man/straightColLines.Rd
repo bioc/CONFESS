@@ -27,4 +27,3 @@ Estimated vertical BF characteristic lines.
 It identifies the vertical BF image characteristic lines.
 }
 \keyword{internal}
-

@@ -21,4 +21,3 @@ The transformed data matrix
 It transforms the adjusted fluorescence signals of a matrix.
 }
 \keyword{internal}
-

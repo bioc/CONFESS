@@ -18,4 +18,3 @@ A list of files to be analyzed
 It reads a subset of the original file names.
 }
 \keyword{internal}
-

@@ -29,4 +29,3 @@ The sorted transformed signal differences (path) and the associated change-point
 A helper that estimates the change-points by various methods.
 }
 \keyword{internal}
-

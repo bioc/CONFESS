@@ -18,4 +18,3 @@ The sorted cluster indices (path)
 A helper that updates the path sorted clusters after re-estimation by change-point analysis.
 }
 \keyword{internal}
-

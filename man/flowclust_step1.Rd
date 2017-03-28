@@ -22,4 +22,3 @@ Preliminary flowClust results
 A helper function for flowClust analysis.
 }
 \keyword{internal}
-

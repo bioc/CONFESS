@@ -16,4 +16,3 @@ A coded message
 It generates a coded message of the estimation type that is being performed.
 }
 \keyword{internal}
-

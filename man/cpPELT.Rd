@@ -24,4 +24,3 @@ A list of change-points and the associated change-point clusters
 It performs the change-point analysis of the variance stabilized adjusted fluorescence signals by PELT.
 }
 \keyword{internal}
-

@@ -34,4 +34,3 @@ A list of adjusted fluorescence signals with cluster indices and outlier indicat
 It perfomrs GAP analysis using different methods. It generates the cluster numbers an an indicator of outliers.
 }
 \keyword{internal}
-

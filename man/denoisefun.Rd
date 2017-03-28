@@ -19,4 +19,3 @@ The denoised data
 An internal function to run data denoising.
 }
 \keyword{internal}
-

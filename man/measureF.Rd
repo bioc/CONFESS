@@ -21,4 +21,3 @@ It estimates the foreground signal for an identified spot or for a predefined ar
   the capture site.
 }
 \keyword{internal}
-

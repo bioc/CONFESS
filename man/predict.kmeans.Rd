@@ -18,4 +18,3 @@ The predicted k-mean clusters.
 Takes a training sample and predicts the k-mean clusters of a new dataset (minimizing the Eucledian distance).
 }
 \keyword{internal}
-

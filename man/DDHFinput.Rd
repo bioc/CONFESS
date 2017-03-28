@@ -18,4 +18,3 @@ The sorted fluorescence signals
 It sorts the fluorescence signals of both channels data for DDHF.
 }
 \keyword{internal}
-

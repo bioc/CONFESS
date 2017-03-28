@@ -22,4 +22,3 @@ The image with the generated spot(s)
 A helper to simulate spots in a image.
 }
 \keyword{internal}
-

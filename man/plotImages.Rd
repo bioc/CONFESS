@@ -38,4 +38,3 @@ the plotted results and statistics of the signal-to-noise ratio
 It generates the plotted results.
 }
 \keyword{internal}
-

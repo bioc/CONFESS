@@ -46,4 +46,3 @@ It produces a table of estimated spot locations and fluorescence signals accompa
   BF image modelling estimation.
 }
 \keyword{internal}
-

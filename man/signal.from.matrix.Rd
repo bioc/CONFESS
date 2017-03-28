@@ -18,4 +18,3 @@ Some values of interest
 A helper to simulate spots in a image.
 }
 \keyword{internal}
-

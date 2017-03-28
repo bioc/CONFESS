@@ -24,4 +24,3 @@ A list of spot coordinate estimates
 It estimates a series of spot statistics on each channel.
 }
 \keyword{internal}
-

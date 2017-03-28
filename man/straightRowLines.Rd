@@ -22,4 +22,3 @@ The estimated horizontal BF characteristic lines
 It identifies the horizontal BF image characteristic lines.
 }
 \keyword{internal}
-

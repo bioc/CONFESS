@@ -42,4 +42,3 @@ step1 <- createFluo(from.file=system.file("extdata", "Results_of_image_analysis.
                    package = "CONFESS"),separator="_")
 step2a <- FluoSelection_byRun(data = step1, batch = 4:5)
 }
-

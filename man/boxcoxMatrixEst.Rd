@@ -16,4 +16,3 @@ The transformed data
 A helper to run the Box Cox transformation on a data matrix of adjusted fluorescence signals.
 }
 \keyword{internal}
-

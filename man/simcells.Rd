@@ -51,4 +51,3 @@ noise.level = c(100, 100),spot.size = list(c(81, 100), c(26, 29, 50)), agreement
 r<-simcells(channels = 2, spots.per.image = c(0, 0), image.dimension = rep(200, 2),
 signal.level = list(c(),c()),noise.level = c(0, 0), spot.size = list(c(), c()))
 }
-

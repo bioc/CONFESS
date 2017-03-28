@@ -33,4 +33,3 @@ Another helper to re-estimate the spot location or find the capture site locatio
   (BF image modelling).
 }
 \keyword{internal}
-

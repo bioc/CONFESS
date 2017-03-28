@@ -21,4 +21,3 @@ The DDHFmv clusters and model estimates
 An internal function to produce the DDHFmv clustering and other model estimates.
 }
 \keyword{internal}
-

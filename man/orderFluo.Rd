@@ -26,4 +26,3 @@ A list with the adjusted fluorescence signals, the centroids, the clusters and t
 It sort the adjusted (and transfomed) fluorescence signals according to the path progression.
 }
 \keyword{internal}
-

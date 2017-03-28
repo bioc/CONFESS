@@ -22,4 +22,3 @@ If the layout is something like matrix(c(1,2,3,3), nrow=2, byrow=TRUE),
  3 will go all the way across the bottom.
 }
 \keyword{internal}
-

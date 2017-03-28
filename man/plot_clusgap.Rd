@@ -13,4 +13,3 @@ plot gap stats
 adapted from plot_clusgap from phyloseq.
 }
 \keyword{internal}
-

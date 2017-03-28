@@ -36,4 +36,3 @@ A list with the adjusted fluorescence signals and their change-points
 It performs the change-point analysis of the variance stabilized adjusted fluorescence signals.
 }
 \keyword{internal}
-

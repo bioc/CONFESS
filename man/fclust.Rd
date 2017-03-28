@@ -22,4 +22,3 @@ The flowClust results
 The main flowClust function used in this application.
 }
 \keyword{internal}
-

@@ -38,4 +38,3 @@ It generates the final cell location and fluorescnece signal estimates and summa
 Results <- LocationMatrix(data=estimates.2,
            filter.by = matrix(c("FDR","Out.Index",0.005,"confidence"),ncol=2))
 }
-

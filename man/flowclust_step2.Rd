@@ -16,4 +16,3 @@ Preliminary flowClust results
 Another helper function for flowClust analysis.
 }
 \keyword{internal}
-

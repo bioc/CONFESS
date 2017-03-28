@@ -46,4 +46,3 @@ It estimates the spot location statistics by fluorescence signal in each channel
   the channel-specific data into a single estimate
 }
 \keyword{internal}
-

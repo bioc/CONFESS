@@ -63,4 +63,3 @@ package = "CONFESS"),separator="_")
 step2a <- FluoSelection_byRun(data = step1, batch = 5)
 step2.1 <- getFluo_byRun(data=step2a,savePlot="OFF")
 }
-

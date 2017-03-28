@@ -22,4 +22,3 @@ The background image estimates
 It estimates the background signal for an image.
 }
 \keyword{internal}
-

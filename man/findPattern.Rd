@@ -19,4 +19,3 @@ An estimate for the existence of a characteristic line
 A helper to find the characteristic straight lines of the BF image .
 }
 \keyword{internal}
-

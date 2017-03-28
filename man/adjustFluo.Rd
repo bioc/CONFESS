@@ -45,4 +45,3 @@ A list with the fluorescence signals, mixture components and flexmix model estim
 It performs the run effect correction and normalization of the raw fluorescence signals.
 }
 \keyword{internal}
-

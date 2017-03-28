@@ -18,4 +18,3 @@ An index with the data that will remain in the analysis.
 It samples a data subset for the cross-validation analysis.
 }
 \keyword{internal}
-

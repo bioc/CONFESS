@@ -25,4 +25,3 @@ A list of adjusted fluorescence signals and the updated path after the change-po
 It updates the path sorted clusters after re-estimation by change-point analysis.
 }
 \keyword{internal}
-

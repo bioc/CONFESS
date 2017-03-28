@@ -19,4 +19,3 @@ A matrix of bright (spot) coordinates
 Identifies one or multiple spot(s) in the image data matrix.
 }
 \keyword{internal}
-

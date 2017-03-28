@@ -27,4 +27,3 @@ A list of re-estimated locations
 It re-estimates the location of the outlier samples
 }
 \keyword{internal}
-

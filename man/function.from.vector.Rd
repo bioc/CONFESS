@@ -16,4 +16,3 @@ Preliminary DDHF results
 A helper for DDHF.
 }
 \keyword{internal}
-

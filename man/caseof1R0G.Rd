@@ -45,4 +45,3 @@ It processes the case of 1 spot in one channel and 0 spots in the other channel.
   BF image modelling is not necessarily performed.
 }
 \keyword{internal}
-

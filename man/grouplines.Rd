@@ -16,4 +16,3 @@ An estimate for the existence of a characteristic line
 It reconstructs the BF image characteristic lines.
 }
 \keyword{internal}
-

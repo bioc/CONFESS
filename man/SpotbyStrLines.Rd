@@ -20,4 +20,3 @@ A series of spot location estimates
 It estimates the spot location using the BF image modeling parameters
 }
 \keyword{internal}
-

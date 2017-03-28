@@ -32,4 +32,3 @@ A list of fluorescence signals, mixture components and flexmix model estimates
 It performs the run effect correction of the cell fluorescence signals by flexmix or 2-way ANOVA.
 }
 \keyword{internal}
-

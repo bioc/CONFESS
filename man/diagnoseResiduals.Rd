@@ -18,4 +18,3 @@ The residual diagnostics and plots
 An internal function to perform residual diagnostic tests.
 }
 \keyword{internal}
-

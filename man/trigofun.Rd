@@ -17,4 +17,3 @@ It computes the sin,cos and tan trigonometric functions for a number of points (
   relative to the start of the axes.
 }
 \keyword{internal}
-

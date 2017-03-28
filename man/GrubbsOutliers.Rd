@@ -18,4 +18,3 @@ The fluorescence signals and the potential outliers
 It identifies potential outliers by the Grubbs test.
 }
 \keyword{internal}
-

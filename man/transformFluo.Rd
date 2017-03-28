@@ -19,4 +19,3 @@ A list with the adjusted fluorescence signals and the transformed adjusted fluor
 It performs the variance stabilizing transformation of the flurescence signals.
 }
 \keyword{internal}
-

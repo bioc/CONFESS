@@ -18,4 +18,3 @@ The pseudotimes and cell progression
 A helper to estimate the pseudotimes by orthogonal projection.
 }
 \keyword{internal}
-

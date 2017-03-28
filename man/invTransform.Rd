@@ -21,4 +21,3 @@ The back-transformed data matrix
 It back-transforms the transformed adjusted cell fluorescence signals of a matrix.
 }
 \keyword{internal}
-

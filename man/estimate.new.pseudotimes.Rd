@@ -19,4 +19,3 @@ It estimates a unique pseudotime vector to be used for analysis with Fluo_orderi
   estimates for each sample and a particular method defined by pseudo.est.method parameter at Fluo_CV_modeling().
 }
 \keyword{internal}
-

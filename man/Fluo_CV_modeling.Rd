@@ -74,4 +74,3 @@ print("Not run because takes a long time")
 #B.kmeans=5,CPpvalue=0.01,savePlot="OFF")
 #steps2_4cv<-Fluo_CV_modeling(data=steps2_4,B=5,f=0.99,savePlot="OFF")
 }
-

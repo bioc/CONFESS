@@ -47,4 +47,3 @@ It processes the case of 1 spot in both channels. BF image modelling is not nece
 It reports possible contamination.
 }
 \keyword{internal}
-

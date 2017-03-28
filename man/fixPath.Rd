@@ -18,4 +18,3 @@ A list with the adjusted fluorescence signals and the clusters
 It tests whether the path has been appropariately defined and produces an error if not.
 }
 \keyword{internal}
-

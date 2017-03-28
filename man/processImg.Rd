@@ -19,4 +19,3 @@ A denoised image
 Denoises the image data to be used for spot location estimation.
 }
 \keyword{internal}
-

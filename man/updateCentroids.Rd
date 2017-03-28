@@ -18,4 +18,3 @@ The updated centroids table
 It updates the centroids of the clusters that are re-estimated by change-point analysis.
 }
 \keyword{internal}
-

@@ -30,4 +30,3 @@ A series of location estimates includying the channel-specific spot center and s
 It finds the spot coordinates using the spot centers or BF image modeling
 }
 \keyword{internal}
-

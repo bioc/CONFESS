@@ -102,4 +102,3 @@ A summary of the signal adjustment algorithms into a single function. It correct
 \examples{
 step2 <- Fluo_adjustment(data=step1,flex.reps = 5,single.batch.analysis=5,savePlot="OFF")
 }
-

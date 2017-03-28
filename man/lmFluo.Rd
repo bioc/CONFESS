@@ -33,4 +33,3 @@ The flexmix mixture components and other statistics
 It estimates the optimal number of mixtures for the flexmix model on data from multiple runs.
 }
 \keyword{internal}
-

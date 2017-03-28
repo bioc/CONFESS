@@ -18,4 +18,3 @@ The average spot's noisy signal
 A helper to simulate the spot signal.
 }
 \keyword{internal}
-

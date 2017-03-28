@@ -23,4 +23,3 @@ The flexmix mixture components
 An helper internal function to generate the results of flexmix.
 }
 \keyword{internal}
-

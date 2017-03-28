@@ -44,4 +44,3 @@ A wrapper of the functions used for run effect and background correction. It giv
   corrected, transformed corrected and mixture groups of each baseline run.
 }
 \keyword{internal}
-

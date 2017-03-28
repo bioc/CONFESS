@@ -45,4 +45,3 @@ It processes the case of >1 spots in both channels. BF image modelling is not ne
 It implies image contamination.
 }
 \keyword{internal}
-

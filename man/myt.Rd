@@ -20,4 +20,3 @@ A test P-value
 A helper to test whether the foreground signal is statistically higher than the background.
 }
 \keyword{internal}
-

@@ -103,4 +103,3 @@ basedir<-"~/"
 #estimates <- spotEstimator(files=files,subset=1:3,foregroundCut=seq(0.6,0.76,0.02),
 #                           correctionAlgorithm=FALSE,savePlot="screen")
 }
-

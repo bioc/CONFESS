@@ -19,4 +19,3 @@ A list of channel image estimates
 It reads and processes the channel image data
 }
 \keyword{internal}
-
