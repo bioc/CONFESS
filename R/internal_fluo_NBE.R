@@ -2402,7 +2402,7 @@ reestimate.pseudos.byCV <-
 #' It finds the cluster that initiates the progression path.
 #'
 #' @param data List. The output of Fluo_inspection().
-#' @param where Character. One of "bottom/left", "bottom/right", "top/left", "top/right" that specify
+#' @param where Character. One of "random","bottom/left", "bottom/right", "top/left", "top/right" that specify
 #'   the starting point of the progression path.
 #'
 #' @return A starting point for the progression path
@@ -2410,12 +2410,10 @@ reestimate.pseudos.byCV <-
 #' @keywords internal
 path.initiator <- function(data, where) {
   w <- c()
-  if (where != "random") {
-    w <- where
+  if (where[1] != "random") {
+    w <- where[1]
   } else {
-    w <-
-      sample(c("bottom/left", "bottom/right", "top/left", "top/right"),
-             1)
+    w <-sample(c("bottom/left", "bottom/right", "top/left", "top/right"),1)
   }
   
   if (w == "bottom/left") {

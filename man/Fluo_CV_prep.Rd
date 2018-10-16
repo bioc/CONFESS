@@ -6,10 +6,11 @@
 \usage{
 Fluo_CV_prep(data, init.path = "bottom/left", path.type = c("circular",
   "clockwise"), BGmethod = "normexp", maxMix = 3,
-  single.batch.analysis = 1:5, transformation = "log", prior.pi = 0.1,
-  flex.reps = 50, flexmethod = "BIC", areacut = 0, fixClusters = 0,
-  altFUN = "kmeans", k.max = 15, VSmethod = "DDHFmv", CPmethod = "ECP",
-  CPgroups = 5, B.kmeans = 50, CPpvalue = 0.05, CPmingroup = 15,
+  single.batch.analysis = 1:5, transformation = "log",
+  prior.pi = 0.1, flex.reps = 50, flexmethod = "BIC", areacut = 0,
+  fixClusters = 0, altFUN = "kmeans", k.max = 15,
+  VSmethod = "DDHFmv", CPmethod = "ECP", CPgroups = 5,
+  B.kmeans = 50, CPpvalue = 0.05, CPmingroup = 15,
   savePlot = getwd(), seed = NULL)
 }
 \arguments{

@@ -4,8 +4,8 @@
 \alias{summarizeAdjFluo}
 \title{summarizeAdjFluo}
 \usage{
-summarizeAdjFluo(data, transformation, BGmethod, maxMix, reference, prior.pi,
-  flex.reps, flexmethod, image.type, savePlot, seed)
+summarizeAdjFluo(data, transformation, BGmethod, maxMix, reference,
+  prior.pi, flex.reps, flexmethod, image.type, savePlot, seed)
 }
 \arguments{
 \item{data}{List. A list with the fluorescence signal information of both channels.}

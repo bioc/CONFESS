@@ -4,8 +4,8 @@
 \alias{caseof2R2G}
 \title{caseof2R2G}
 \usage{
-caseof2R2G(centerR, centerG, origImg, chaImgs, minDiff, despeckle, ImgLimits,
-  BFarea, chip.type, separator, image.type)
+caseof2R2G(centerR, centerG, origImg, chaImgs, minDiff, despeckle,
+  ImgLimits, BFarea, chip.type, separator, image.type)
 }
 \arguments{
 \item{centerR}{Data matrix. The location statistics of one channel.}

@@ -4,7 +4,8 @@
 \alias{reestimate.pseudos.byCV}
 \title{reestimate.pseudos.byCV}
 \usage{
-reestimate.pseudos.byCV(data, diff.quantile, perc.cutoff, pseudotime.cutoff)
+reestimate.pseudos.byCV(data, diff.quantile, perc.cutoff,
+  pseudotime.cutoff)
 }
 \arguments{
 \item{data}{Numeric. A vector of estimated pseudotimes for one sample. The first value corresponds to the estimate

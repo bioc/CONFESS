@@ -4,8 +4,9 @@
 \alias{spotCoords}
 \title{spotCoords}
 \usage{
-spotCoords(centerR, centerG, origImg, chaImgs, minDiff, despeckle, ImgLimits,
-  BFarea, chip.type, separator, image.type, show.possible.contamination)
+spotCoords(centerR, centerG, origImg, chaImgs, minDiff, despeckle,
+  ImgLimits, BFarea, chip.type, separator, image.type,
+  show.possible.contamination)
 }
 \arguments{
 \item{centerR}{Data matrix. The location statistics of one channel.}

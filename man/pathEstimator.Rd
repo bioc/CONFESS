@@ -4,8 +4,8 @@
 \alias{pathEstimator}
 \title{pathEstimator}
 \usage{
-pathEstimator(data, path.start = 1, path.type = c("circular", "clockwise"),
-  joinedGroups = NULL)
+pathEstimator(data, path.start = 1, path.type = c("circular",
+  "clockwise"), joinedGroups = NULL)
 }
 \arguments{
 \item{data}{List. The output of Fluo_inspection().}

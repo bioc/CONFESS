@@ -4,7 +4,8 @@
 \alias{GAPanalysis}
 \title{GAPanalysis}
 \usage{
-GAPanalysis(data, fixClusters, sigma, altFUN, k.max, B.kmeans, savePlot, seed)
+GAPanalysis(data, fixClusters, sigma, altFUN, k.max, B.kmeans, savePlot,
+  seed)
 }
 \arguments{
 \item{data}{List. A list of adjusted fluorescence signals. Typically, the output of summarizeAdjFluo().}

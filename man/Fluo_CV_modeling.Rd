@@ -4,8 +4,9 @@
 \alias{Fluo_CV_modeling}
 \title{Fluo_CV_modeling}
 \usage{
-Fluo_CV_modeling(data, B = 20, batch = 1, perc.cutoff = 0.6, q = 0.9,
-  f = 0.9, seed.it = TRUE, pseudotime.cutoff = 20, savePlot = getwd())
+Fluo_CV_modeling(data, B = 20, batch = 1, perc.cutoff = 0.6,
+  q = 0.9, f = 0.9, seed.it = TRUE, pseudotime.cutoff = 20,
+  savePlot = getwd())
 }
 \arguments{
 \item{data}{List. The output of Fluo_CV_prep() or any other manually retrieved list with the components of Fluo_CV_prep().}

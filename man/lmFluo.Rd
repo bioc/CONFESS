@@ -4,7 +4,8 @@
 \alias{lmFluo}
 \title{lmFluo}
 \usage{
-lmFluo(data, batch, maxMix, reference, prior.pi, flex.reps, flexmethod, seed)
+lmFluo(data, batch, maxMix, reference, prior.pi, flex.reps, flexmethod,
+  seed)
 }
 \arguments{
 \item{data}{Numeric vector. An 1-dimensional vector of adjusted data from a single channel.}

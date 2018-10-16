@@ -9,7 +9,7 @@ path.initiator(data, where)
 \arguments{
 \item{data}{List. The output of Fluo_inspection().}
 
-\item{where}{Character. One of "bottom/left", "bottom/right", "top/left", "top/right" that specify
+\item{where}{Character. One of "random","bottom/left", "bottom/right", "top/left", "top/right" that specify
 the starting point of the progression path.}
 }
 \value{

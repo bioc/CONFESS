@@ -4,8 +4,8 @@
 \alias{failurecase}
 \title{failurecase}
 \usage{
-failurecase(img, pattern.search, despeckle, ImgLimits, chip.type, separator,
-  image.type)
+failurecase(img, pattern.search, despeckle, ImgLimits, chip.type,
+  separator, image.type)
 }
 \arguments{
 \item{pattern.search}{Integer. A cutoff to find horizontal and vertical lines on the chip.}

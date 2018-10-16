@@ -4,8 +4,8 @@
 \alias{caseof1R0G}
 \title{caseof1R0G}
 \usage{
-caseof1R0G(centerR, centerG, origImg, chaImgs, minDiff, despeckle, ImgLimits,
-  BFarea, chip.type, separator, image.type)
+caseof1R0G(centerR, centerG, origImg, chaImgs, minDiff, despeckle,
+  ImgLimits, BFarea, chip.type, separator, image.type)
 }
 \arguments{
 \item{centerR}{Data matrix. The location statistics of one channel.}

@@ -6,7 +6,8 @@
 \usage{
 Fluo_adjustment(data, BGmethod = "normexp", maxMix = 3,
   single.batch.analysis = 1, transformation = "log", prior.pi = 0.1,
-  flex.reps = 50, flexmethod = "BIC", savePlot = getwd(), seed = NULL)
+  flex.reps = 50, flexmethod = "BIC", savePlot = getwd(),
+  seed = NULL)
 }
 \arguments{
 \item{data}{List. The output of createFluo().}

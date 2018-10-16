@@ -5,8 +5,8 @@
 \title{defineLocClusters}
 \usage{
 defineLocClusters(LocData, dims = rep(512, 2),
-  out.method = "interactive.clustering", subset = c(), separator = "_",
-  savePlot = "screen")
+  out.method = "interactive.clustering", subset = c(),
+  separator = "_", savePlot = "screen")
 }
 \arguments{
 \item{LocData}{The table of the location estimates obtained by spotEstimator().}

@@ -4,8 +4,8 @@
 \alias{getCsFAIL}
 \title{getCsFAIL}
 \usage{
-getCsFAIL(centerR, centerG, origImg, chaImgs, minDiff, despeckle, ImgLimits,
-  BFarea, chip.type, separator, image.type)
+getCsFAIL(centerR, centerG, origImg, chaImgs, minDiff, despeckle,
+  ImgLimits, BFarea, chip.type, separator, image.type)
 }
 \arguments{
 \item{centerR}{Data matrix. The location statistics of one channel.}

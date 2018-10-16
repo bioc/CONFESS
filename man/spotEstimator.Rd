@@ -5,10 +5,11 @@
 \title{spotEstimator}
 \usage{
 spotEstimator(files, correctionAlgorithm, subset = c(),
-  foregroundCut = seq(0.5, 0.7, 0.02), denoise = FALSE, despeckle = FALSE,
-  chip.type = "medium/large", cutSides = 0, BFarea = 7,
-  log.transform = TRUE, minDiff = 0.5, show.possible.contamination = TRUE,
-  cutoff = 50, QCdata = 0, median.correction = TRUE, savePlot = getwd())
+  foregroundCut = seq(0.5, 0.7, 0.02), denoise = FALSE,
+  despeckle = FALSE, chip.type = "medium/large", cutSides = 0,
+  BFarea = 7, log.transform = TRUE, minDiff = 0.5,
+  show.possible.contamination = TRUE, cutoff = 50, QCdata = 0,
+  median.correction = TRUE, savePlot = getwd())
 }
 \arguments{
 \item{files}{Character string. The file names to be read and analyzed. This is the output of readFiles()}

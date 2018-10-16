@@ -4,8 +4,8 @@
 \alias{straightColLines}
 \title{straightColLines}
 \usage{
-straightColLines(img, pattern.search, cut = seq(0.3, 1.5, 0.02), ImgLimits,
-  chip.type)
+straightColLines(img, pattern.search, cut = seq(0.3, 1.5, 0.02),
+  ImgLimits, chip.type)
 }
 \arguments{
 \item{img}{Data matrix. The BF image data matrix.}

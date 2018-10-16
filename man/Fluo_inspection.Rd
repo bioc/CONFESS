@@ -4,8 +4,9 @@
 \alias{Fluo_inspection}
 \title{Fluo_inspection}
 \usage{
-Fluo_inspection(data, altFUN = "kmeans", fixClusters = 0, SAM.sigma = 200,
-  k.max = 15, B.kmeans = 50, savePlot = getwd(), seed = NULL)
+Fluo_inspection(data, altFUN = "kmeans", fixClusters = 0,
+  SAM.sigma = 200, k.max = 15, B.kmeans = 50, savePlot = getwd(),
+  seed = NULL)
 }
 \arguments{
 \item{data}{List. The output of getFluo() or getFluo_byRun().}

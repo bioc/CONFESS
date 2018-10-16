@@ -4,10 +4,10 @@
 \alias{simcells}
 \title{simcells}
 \usage{
-simcells(channels = 2, spots.per.image = c(1, 1), one.location = c(50,
-  50), image.dimension = rep(100, 2), signal.level = list(700, 700),
-  noise.level = c(200, 200), spot.size = list(30, 30),
-  agreement.number = 1)
+simcells(channels = 2, spots.per.image = c(1, 1),
+  one.location = c(50, 50), image.dimension = rep(100, 2),
+  signal.level = list(700, 700), noise.level = c(200, 200),
+  spot.size = list(30, 30), agreement.number = 1)
 }
 \arguments{
 \item{channels}{Integer. The number of channels for each sample. Default is 2.}
