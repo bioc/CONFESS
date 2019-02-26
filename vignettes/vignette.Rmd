@@ -4,7 +4,7 @@ author: "Diana LOW, Efthymios MOTAKIS"
 date: "`r doc_date()`"
 package: "`r pkg_ver('CONFESS')`"
 vignette: >
-  %\VignetteIndexEntry{CONFESS}
+  %\VignetteIndexEntry{CONFESS Walkthrough}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}  
 output: 
