@@ -376,7 +376,11 @@ simcells <-
       }
     }
     
-    multiplot(sim1, sim2, cols = 2)
+    if(channels==2){
+      print(multiplot(sim1, sim2, cols = 2))
+    } else {
+      print(sim1)
+    }
     spot.center = list(Ch1 = loc1, Ch2 = loc2)
     for (i in 1:channels) {
       if (spots.per.image[i] > 0) {

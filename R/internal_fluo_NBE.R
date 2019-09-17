@@ -1437,11 +1437,11 @@ orderFluo <- function(data, path.type, updater = FALSE) {
     center2 <- as.numeric(ms[which(ms[, 1] == path[(i + 1)]), 2:3])
     ww <- which(groups == path[(i + 1)])
     if (updater == FALSE) {
-      dots <- data$corrected.transformed.exprs[ww,]
+      dots <- matrix(data$corrected.transformed.exprs[ww,],ncol=ncol(data$corrected.transformed.exprs))
       rgroups <- data$GAPgroups[ww]
     }
     if (updater == TRUE) {
-      dots <- data$corrected.VStransformed.exprs[ww,]
+      dots <- matrix(data$corrected.VStransformed.exprs[ww,],ncol=ncol(data$corrected.VStransformed.exprs))
       rgroups <- groups[ww]
     }
     rsamples <- data$samples[ww]
@@ -1453,10 +1453,10 @@ orderFluo <- function(data, path.type, updater = FALSE) {
     res <-
       matrix(cbind(rsamples, dots, rgroups, res), ncol = ncol(mydata))
     res <-
-      res[sort.list(as.numeric(res[, ncol(res)]), decreasing = TRUE),]
+      matrix(res[sort.list(as.numeric(res[, ncol(res)]), decreasing = TRUE),],ncol=ncol(res))
     mydata <- matrix(rbind(mydata, res), ncol = ncol(mydata))
   }
-  mydata <- mydata[-1,]
+  mydata <- matrix(mydata[-1,],ncol=ncol(mydata))
   
   mydatab <- matrix(0, 1, 5)
   for (i in 1:(length(path) - 1)) {
@@ -1466,11 +1466,11 @@ orderFluo <- function(data, path.type, updater = FALSE) {
       as.numeric(ms[which(ms[, 1] == path[(length(path) - i)]), 2:3])
     ww <- which(groups == path[(length(path) - i)])
     if (updater == FALSE) {
-      dots <- data$corrected.transformed.exprs[ww,]
+      dots <- matrix(data$corrected.transformed.exprs[ww,],ncol=ncol(data$corrected.transformed.exprs))
       rgroups <- data$GAPgroups[ww]
     }
     if (updater == TRUE) {
-      dots <- data$corrected.VStransformed.exprs[ww,]
+      dots <- matrix(data$corrected.VStransformed.exprs[ww,],ncol=ncol(data$corrected.VStransformed.exprs))
       rgroups <- groups[ww]
     }
     rsamples <- data$samples[ww]
@@ -1482,10 +1482,10 @@ orderFluo <- function(data, path.type, updater = FALSE) {
     res <-
       matrix(cbind(rsamples, dots, rgroups, res), ncol = ncol(mydatab))
     res <-
-      res[sort.list(as.numeric(res[, ncol(res)]), decreasing = TRUE),]
+      matrix(res[sort.list(as.numeric(res[, ncol(res)]), decreasing = TRUE),],ncol=ncol(res))
     mydatab <- matrix(rbind(mydatab, res), ncol = ncol(mydatab))
   }
-  mydatab <- mydatab[-1,]
+  mydatab <- matrix(mydatab[-1,],ncol=ncol(mydatab))
   
   mm <- match(mydata[, 1], mydatab[, 1])
   all <- matrix(cbind(mydata, mydatab[mm,]), nrow = nrow(mydata))
@@ -1891,13 +1891,15 @@ GAPanalysis <-
     }
     
     if (altFUN == "samSpec") {
+      set.seed(min(seed * 7, 100000000))
       g <-
         SamSPECTRAL(
           data.points = dd,
           dimensions = c(1, 2),
           normal.sigma = sigma,
           separation.factor = 0.39,
-          maximum.number.of.clusters = k.max
+          maximum.number.of.clusters = k.max,
+          stabilizer=10000
         )
       g1 <- rep(1, length(g))
       w <- as.numeric(is.na(g))
@@ -1909,6 +1911,7 @@ GAPanalysis <-
     }
     
     if (altFUN == "fmeans") {
+      set.seed(min(seed * 7, 100000000))
       colnames(dd) <- c("Ch2", "Ch3")
       res <- flowMeans(dd, colnames(dd))
       g <- res@Label
@@ -1927,11 +1930,14 @@ GAPanalysis <-
       options(warn = -1)
       d1 <- as.matrix(dd)
       colnames(d1) <- c("Ch2", "Ch3")
+      set.seed(min(seed * 7, 100000000))
       res1 <- flowClust(d1, varNames = colnames(d1), K = 1:k.max)
       flowClust.maxBIC <- res1[[which.max(flowMerge::BIC(res1))]]
-      flowClust.flowobj <- flowObj(flowClust.maxBIC, flowFrame(d1))
-      flowClust.merge <-
-        flowMerge::merge(flowClust.flowobj, metric = "entropy")
+      set.seed(min(seed * 7, 100000000))
+      flowClust.flowobj <- flowMerge::flowObj(flowClust.maxBIC, flowFrame(d1))
+      set.seed(min(seed * 7, 100000000))
+      flowClust.merge <-flowMerge::merge(flowClust.flowobj, metric = "entropy")
+      set.seed(min(seed * 7, 100000000))
       i <- fitPiecewiseLinreg(flowClust.merge)
       flowClust.mergeopt <- flowClust.merge[[i]]
       g <- flowClust.mergeopt@label
@@ -1939,12 +1945,27 @@ GAPanalysis <-
       w <- as.numeric(is.na(g))
       g1[which(w == 1)] <- 2
       g[which(w == 1)] <- -999
-      g <-
-        matrix(cbind(matrix(g, ncol = 1), matrix(g1, ncol = 1)), ncol =
-                 2)
+      g <-matrix(cbind(matrix(g, ncol = 1), matrix(g1, ncol = 1)), ncol = 2)
+      
+      add1<-as.matrix(aggregate(d1[,1],list(g[,1]),median))
+      add2<-as.matrix(aggregate(d1[,2],list(g[,1]),median))
+      add1<-matrix(add1[match(add2[,1],add1[,1]),],ncol=ncol(add1))
+      add<-as.numeric(as.character(add1[,2]))+as.numeric(as.character(add2[,2]))
+      add1<-add1[sort.list(add),]
+      add2<-add2[sort.list(add),]
+      ggg<-rep(-999,nrow(g))
+      index<-0
+      for(i in 1:nrow(add1)){
+        if(add1[i,1]!= -999){
+          index<-index+1
+          ggg[which(g[,1]==add1[i,1])]<-index
+        }
+      }
+      g[,1]<-ggg        
     }
     
     if (altFUN == "fpeaks") {
+      set.seed(min(seed * 7, 100000000))
       colnames(dd) <- c("Ch2", "Ch3")
       fp <- flowPeaks(dd)
       g <- fp$peaks.cluster
@@ -1971,7 +1992,7 @@ GAPanalysis <-
         normal.sigma = sigma
       )
     ))
-    }
+  }
 
 
 #' trigofun
