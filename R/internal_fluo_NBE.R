@@ -1931,7 +1931,7 @@ GAPanalysis <-
       d1 <- as.matrix(dd)
       colnames(d1) <- c("Ch2", "Ch3")
       set.seed(min(seed * 7, 100000000))
-      res1 <- flowClust(d1, varNames = colnames(d1), K = 1:k.max)
+      res1 <- flowClust(d1, varNames = colnames(d1), K = 1:k.max,randomStart=100,seed=min(seed * 7, 100000000))
       flowClust.maxBIC <- res1[[which.max(flowMerge::BIC(res1))]]
       set.seed(min(seed * 7, 100000000))
       flowClust.flowobj <- flowMerge::flowObj(flowClust.maxBIC, flowFrame(d1))
